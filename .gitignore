@@ -1,0 +1,9 @@
+.*
+!.git*
+_*
+*.out
+*.log
+
+data/gisaid_sequences.fa
+
+results

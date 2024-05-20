@@ -1,0 +1,14 @@
+# Interactive phylogeny of early SARS-CoV-2 that attempts to reproduce Fig 3a of 2024 study by group of Yong-Zhen Zhang
+This tree is designed to reproduce that in Fig. 3a of [Lv et al, Virus Evolution (2024)](https://academic.oup.com/ve/article/10/1/veae020/7619252), which reports a phylogeny of SARS-CoV-2 sequences in previously in public databases and new sequences collected by Zhang's group from what Zhang calls "stages 0 and 1" of the outbreak (before March-1-2020).
+
+The phylogeny here was built by trying to exactly reproduce the methods of [Lv et al, Virus Evolution (2024)](https://academic.oup.com/ve/article/10/1/veae020/7619252) used to make Fig. 3a of that paper, so see that paper for details about the sequences included, their lineage designations, rooting of the tree, etc.
+However, the methods were not sufficient to completely reproduce every detail, so the tree here is very close but may not be exactly identical to that from the paper.
+In addition to the metadata from [Lv et al, Virus Evolution (2024)](https://academic.oup.com/ve/article/10/1/veae020/7619252), sequences noted as being from 2019 in Tables 6 and 7 of the [joint WHO-China report](https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part) are also annotated on this phylogeny.
+
+Note that the best way to root the SARS-CoV-2 phylogeny is still an open topic with substantial uncertainty (see [Pipes et al (2021)](https://academic.oup.com/mbe/article/38/4/1537/6028993)).
+There are also open questions about the best way to subsample, de-duplicate, and quality control early SARS-CoV-2 sequences. Further, the high similarity of the sequences mean there is also just limited statistical support to reliably draw conclusions about some aspects of the phylogeny (see the [paper "Phylogenetic analysis of SARS-CoV-2 data is difficult" by Morel et al (2020)](https://academic.oup.com/mbe/article/38/5/1777/6030946)).
+
+This phylogeny attempts to reproduce the one from the study by Zhang's group ([Lv et al, Virus Evolution (2024)](https://academic.oup.com/ve/article/10/1/veae020/7619252)) since that is the most recent major study on the topic and includes additional sequence data not in prior analyses.
+However, further work on rooting and sequence curation are needed (this phylogeny should help with that), and recall the conclusion of [Pipes et al (2021)](https://academic.oup.com/mbe/article/38/4/1537/6028993) that _"These results suggest that phylogenetic evidence alone is unlikely to identify the origin of the SARS-CoV-2 virus and we caution against strong inferences regarding the early spread of the virus based solely on such evidence."_
+
+The code used to build this phylogeny is available [in this GitHub repo](https://github.com/jbloom/rebuild_Lv_SARS2_tree).

@@ -1,0 +1,14 @@
+name: rebuild_Lv_SARS2_tree
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - altair=5.3.0
+  - augur=24.3.0
+  - jupyterlab
+  - openpyxl
+  - python=3.10
+  - snakemake=7
